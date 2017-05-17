@@ -57,7 +57,6 @@ public class ArticleDetailFragment extends Fragment implements
     private NestedScrollView mScrollView;
     private DrawInsetsFrameLayout mDrawInsetsFrameLayout;
     private ColorDrawable mStatusBarColorDrawable;
-
     private int mTopInset;
     private View mPhotoContainerView;
     private FloatingActionButton fab;
@@ -131,7 +130,6 @@ public class ArticleDetailFragment extends Fragment implements
         mPhoto = (ImageView) mRootView.findViewById(R.id.photo);
         mScrollView = (NestedScrollView) mRootView.findViewById(R.id.scrollview);
         collapsingToolbarLayout = (CollapsingToolbarLayout) mRootView.findViewById(R.id.collapsing_toolbar);
-
         /*mScrollView.setCallbacks(new ObservableScrollView.Callbacks() {
             @Override
             public void onScrollChanged() {

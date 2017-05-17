@@ -21,6 +21,9 @@
                 app:contentScrim="?attr/colorPrimary"
                 app:expandedTitleMarginEnd="64dp"
                 app:expandedTitleMarginStart="48dp"
+                app:collapsedTitleGravity="center"
+                app:expandedTitleTextAppearance="@style/expandedappbar"
+                app:collapsedTitleTextAppearance="@style/collapsedappbar"
                 app:layout_scrollFlags="scroll|exitUntilCollapsed">
 
                 <FrameLayout
@@ -50,7 +53,11 @@
                     android:layout_width="match_parent"
                     android:layout_height="?attr/actionBarSize"
                     app:layout_collapseMode="pin"
-                    />
+                    app:contentInsetStartWithNavigation="16dp"
+                    app:contentInsetLeft="16dp"
+                    app:contentInsetStart="16dp"
+                    >
+                </android.support.v7.widget.Toolbar>
             </android.support.design.widget.CollapsingToolbarLayout>
         </android.support.design.widget.AppBarLayout>
 

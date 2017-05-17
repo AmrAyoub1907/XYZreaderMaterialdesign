@@ -27,24 +27,25 @@
     </style>
 
 
-    <style name="Theme.Bacon" parent="@style/Theme.AppCompat.Light.NoActionBar">
 
-        <item name="android:windowExitTransition">@transition/grid_exit</item>
-    </style>
-
-    <style name="Theme.Bacon.Detail">
-        <item name="android:statusBarColor">@android:color/transparent</item>
-    </style>
 
 
     <style name="expandedappbar" parent="@android:style/TextAppearance.Medium">
-        <item name="android:textSize">32sp</item>
         <item name ="android:fontFamily">sans-serif-condensed</item>
         <item name = "android:lineSpacingMultiplier">0.9</item>
         <item name="android:textStyle">bold</item>
+        <item name="android:textColor">@color/icons</item>
+        <item name="android:textSize">20sp</item>
+        <item name="android:ellipsize">end</item>
+        <item name="android:maxLines">1</item>
+        <item name="android:width">100dp</item>
+
     </style>
     <style name="collapsedappbar" parent="@android:style/TextAppearance.Medium">
         <item name="android:textSize">18sp</item>
+        <item name="android:textStyle">bold</item>
+        <item name="android:textColor">@color/icons</item>
+
     </style>
 
 </resources>
