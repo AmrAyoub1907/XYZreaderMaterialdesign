@@ -137,6 +137,6 @@
             android:elevation="@dimen/fab_elevation"
             android:src="@drawable/ic_share"
             app:pressedTranslationZ="@dimen/fab_elevation"
-            android:stateListAnimator="@anim/fab_state_list_anim" />
+            />
     </android.support.design.widget.CoordinatorLayout>
 </com.example.xyzreader.ui.DrawInsetsFrameLayout>
