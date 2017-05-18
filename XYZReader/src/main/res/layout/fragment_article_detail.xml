@@ -12,7 +12,7 @@
             android:id="@+id/appbar"
             android:layout_width="match_parent"
             android:layout_height="250dp"
-            android:elevation="4dp"
+            android:elevation="@dimen/appbar_elevation"
             >
             <android.support.design.widget.CollapsingToolbarLayout
                 android:id="@+id/collapsing_toolbar"
@@ -136,7 +136,7 @@
             android:contentDescription="@string/action_share"
             android:elevation="@dimen/fab_elevation"
             android:src="@drawable/ic_share"
-            app:pressedTranslationZ="12dp"
+            app:pressedTranslationZ="@dimen/fab_press_translation_z"
             android:stateListAnimator="@anim/fab_state_list_anim" />
     </android.support.design.widget.CoordinatorLayout>
 </com.example.xyzreader.ui.DrawInsetsFrameLayout>
